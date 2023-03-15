@@ -1,6 +1,6 @@
 ---
 
-- hosts: localhost
+- hosts: 
   vars:
     home: /home/ec2-user
   tasks:
@@ -11,7 +11,7 @@
   - name: creating file
     file:
       path: "{{ home }}/test-ansible"
-      state: 
+      state: directory 
     register: task1
 
   - name: debugging task output
