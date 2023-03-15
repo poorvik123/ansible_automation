@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 
   vars:
     project_name: dev3
     env: stage3
