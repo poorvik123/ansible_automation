@@ -2,7 +2,7 @@
 
 - hosts: 
   vars:
-    home: /home/ec2-user
+    home:
   tasks:
 
   - name: debug variable
