@@ -15,5 +15,5 @@
     register: task1
 
   - name: debugging task output
-    debug: var=task1
+    debug: 
 
