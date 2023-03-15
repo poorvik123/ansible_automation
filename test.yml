@@ -11,7 +11,7 @@
   - name: creating file
     file:
       path: "{{ home }}/test-ansible"
-      state: touch
+      state: 
     register: task1
 
   - name: debugging task output
